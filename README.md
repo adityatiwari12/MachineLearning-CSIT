@@ -34,6 +34,8 @@ ii.	    R2 Score
 16.	Checking for Overfitting or Underfitting the data
 17.	Simple Linear Regression - Model Assumptions
 18.	References
+19.	Running the Project
+20.	Project Artifacts
 
 &nbsp; &nbsp; &nbsp; &nbsp;
 
@@ -381,6 +383,39 @@ The concepts and ideas in this project have been taken from the following websit
  ix. Hands-On Machine Learning with Scikit Learn and Tensorflow by Aurilien Geron
  
  x.  Introduction to Machine Learning with Python by Andreas C Muller and Sarah Guido
+
+
+&nbsp; &nbsp; &nbsp; &nbsp;
+
+
+## 19.	Running the Project
+
+To reproduce the model results, you can execute the project using the following command:
+
+```bash
+python run_project.py
+```
+
+This script will load the data, train the model, and generate evaluation plots.
+
+
+&nbsp; &nbsp; &nbsp; &nbsp;
+
+
+## 20.	Project Artifacts
+
+Following artifacts are generated in the project root after execution:
+
+- **`SALES.txt`**: The original dataset containing Sales and Advertising expenditures.
+- **`lm_regressor.pkl`**: Serialized Linear Regression model for deployment or future prediction.
+- **`regression_plot.png`**: Visualization of the data points and the fitted regression line.
+- **`residuals_plot.png`**: Analysis of the errors (residuals) to check model assumptions.
+
+### Model Parameters after Run:
+- **Slope (a)**: 1.60509347
+- **Intercept (b)**: -11.16003616
+- **RMSE**: 11.2273
+- **R2 Score**: 0.5789
 
 
 
